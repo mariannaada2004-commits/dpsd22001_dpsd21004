@@ -1,5 +1,5 @@
 // api.js — Κεντρικό module για API κλήσεις
-const API_BASE = '/api';
+const API_BASE = 'https://dpsd22001-dpsd21004-1.onrender.com';
 
 // Ονόματα μηνών
 const MONTHS = [
