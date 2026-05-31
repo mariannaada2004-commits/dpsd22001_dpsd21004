@@ -9,9 +9,9 @@ const MONTHS = [
 
 // Εικονίδια κατηγοριών
 const CATEGORY_ICONS = {
-    'Δράση': '⚡', 'Κωμωδία': '😄', 'Δράμα': '🎭',
-    'Επιστημονική Φαντασία': '🚀','Anime': '💕', 
-    'Θρίλερ': '🔍', 'Περιπέτεια': '🗺'
+    'Action': '⚡', 'Comedy': '😄', 'Drama': '🎭',
+    'Sci-Fi': '🚀','Anime': '🎨', 
+    'Thriller': '🔍', 'Adventure': '🗺'
 };
 
 // API Functions
