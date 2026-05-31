@@ -1,6 +1,5 @@
 // api.js — Κεντρικό module για API κλήσεις
-const API_BASE = 'http://localhost:3000/api';
-
+const API_BASE = '/api';
 // Ονόματα μηνών
 const MONTHS = [
     '', 'Ιανουάριος', 'Φεβρουάριος', 'Μάρτιος', 'Απρίλιος',
