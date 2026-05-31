@@ -1,14 +1,10 @@
-const { Pool } = require('pg');
-
 const db = new Pool({
-    host: process.env.DB_HOST || 'ep-patient-union-alkhfoop-pooler.c-3.eu-central-1.aws.neon.tech',
-    user: process.env.DB_USER || 'neondb_owner',
-    password: process.env.DB_PASSWORD || 'npg_8DeaERsuQTS4',
-    database: process.env.DB_NAME || 'neondb',
-    port: process.env.DB_PORT || 5432,
-    ssl: {
-        rejectUnauthorized: false
-    }
+    user: 'postgres',                             // Ο default χρήστης στο PC σου
+    host: 'localhost',                            // Τρέχει τοπικά
+    database: 'neondb',                           // Η βάση που φτιάχνουμε στο pgAdmin
+    password: 'Admin', // π.χ. 'admin' ή 'root'
+    port: 5432
+    // ΠΡΟΣΟΧΗ: Εδώ ΔΕΝ βάζουμε ssl: { rejectUnauthorized: false }, το σβήνουμε τελείως για το PC!
 });
 
 module.exports = db;
