@@ -31,7 +31,7 @@ async function loadMovieDetail() {
 }
 
 function renderMovieDetail(movie) {
-    document.title = `CineWorld - ${movie.title}`;
+    document.title = `MovieON - ${movie.title}`;
 
     const posterSrc = movie.image_url && movie.image_url.trim()
         ? movie.image_url
