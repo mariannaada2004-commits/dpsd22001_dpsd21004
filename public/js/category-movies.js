@@ -12,7 +12,7 @@ async function loadCategoryMovies() {
     }
 
     // Ενημέρωση τίτλου σελίδας
-    document.title = `CineWorld - ${decodeURIComponent(categoryName)}`;
+    document.title = `MovieON - ${decodeURIComponent(categoryName)}`;
     const titleEl = document.getElementById('categoryTitle');
     if (titleEl) titleEl.textContent = decodeURIComponent(categoryName);
 
