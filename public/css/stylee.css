@@ -601,25 +601,25 @@ html {
 
 /* RESPONSIVE MEDIA QUERIES (Καθαρισμένα από διπλότυπα)
 */
-@media (max-width: 991px) {
-    .detail-poster-wrap, .detail-poster { min-height: 280px; }
-    .detail-info { padding: 1.5rem; }
-}
+@media (max-width: 768px) {
+    .hero-section, 
+    .page-header {
+        text-align: center !important;
+        padding: 60px 20px !important;
+    }
 
-@media (max-width: 767px) {
-    .hero { min-height: 300px; }
-    .hero-title { font-size: 3.5rem; }
-    .detail-meta-grid { gap: 0.7rem; }
-    .category-row { padding: 1rem 1.2rem; }
-}
+    .hero-section h1, 
+    .page-title {
+        font-size: 2rem !important;
+        line-height: 1.3 !important;
+    }
 
-@media (max-width: 575px) {
-    .section-title { font-size: 1.8rem; }
-    .detail-meta-grid { grid-template-columns: 1fr; }
-    .card-poster-wrap { aspect-ratio: 16/9; }
-    .card-poster { object-position: top; }
+    .hero-section p, 
+    .page-subtitle {
+        font-size: 1rem !important;
+        padding: 0 10px !important;
+    }
 }
-
 .card-poster[src=""], .card-poster:not([src]) {
     background: var(--bg-card-hover);
 }
