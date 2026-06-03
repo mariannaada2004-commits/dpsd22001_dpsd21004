@@ -87,7 +87,6 @@ function createMovieCard(movie, favoriteIds = []) {
                          alt="${movie.title}"
                          onerror="this.src='https://via.placeholder.com/300x450/12121a/7a7a9a?text=No+Image'">
                     <div class="card-poster-overlay">
-                        <div class="play-btn">▶</div>
                     </div>
                     ${movie.rating ? `<div class="card-rating">⭐ ${movie.rating}</div>` : ''}
                 </div>
